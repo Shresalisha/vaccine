@@ -120,27 +120,7 @@ body {
         .or-divider span {
             padding: 0 10px;
         }
-        .social-btn {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-            padding: 10px;
-            background-color: white;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            margin-bottom: 10px;
-            cursor: pointer;
-            font-size: 14px;
-            color: #333;
-        }
-        .social-btn img {
-            width: 20px;
-            margin-right: 10px;
-        }
-        .social-btn:hover {
-            background-color:#f8f8f8;
-        }
+        
         .signup-link {
             text-align: center;
             margin-top: 15px;

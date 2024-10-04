@@ -101,20 +101,7 @@ body {
             margin: 15px 0;
             color: #666;
         }
-        .social-btn {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            margin-bottom: 10px;
-            cursor: pointer;
-        }
-        .social-btn img {
-            width: 20px;
-            margin-right: 10px;
-        }
+     
         .signin-link {
             text-align: center;
             margin-top: 15px;

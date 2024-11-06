@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VaccineEase - Booking Form</title>
+    <link rel="stylesheet" href="booking2.css">
+</head>
+<body>
+    <header class="page-header">
+        <div class="header-logo">
+            <h1>VaccineEase</h1>
+        </div>
+        <nav class="nav-items">
+            <a href="#">About us</a>
+            <a href="#">Centers</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search">
+            <button>🔍</button>
+        </div>
+        <div class="profile-icon">
+            <img src="C:\Users\User\Downloads\vaccine\review1.jpg" alt="Profile" />
+        </div>
+    </header>
+    
+
+    <div class="container">
+        <div class="back-button">
+            <button onclick="history.back()">
+                <img src="C:\Users\User\Downloads\vaccine\bookingform2\arrow.jpg" alt="Back">
+            </button>
+            <h2>Vaccine booking form</h2>
+        </div>
+        
+        <form>
+            <label for="location">Select location</label>
+            <select id="location" name="location">
+                <option value="">Select a location</option>
+                <option value="kathmandu">Kathmandu</option>
+                <option value="bhaktapur">Bhaktapur</option>
+                <option value="lalitpur">Lalitpur</option>
+            </select>
+
+           
+            <h3>Select Vaccination Site</h3>
+            <table class="vaccination-table">
+                <thead>
+                    <tr>
+                        <th>Vaccination Center</th>
+                        <th>&lt; 27 September</th>
+                        <th>28 September</th>
+                        <th>29 September &gt;</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Om hospital, Kathmandu</td>
+                        <td>N/A</td>
+                        <td>Filled</td>
+                        <td><input type="radio" name="slot1"></td>
+                    </tr>
+                    <tr>
+                        <td>Teku hospital, Kathmandu</td>
+                        <td>Filled</td>
+                        <td>N/A</td>
+                        <td>Filled</td>
+                    </tr>
+                    <tr>
+                        <td>Harisiddhi hospital, Lalitpur</td>
+                        <td><input type="radio" name="slot2"></td>
+                        <td><input type="radio" name="slot2"></td>
+                        <td>N/A</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+                       
+
+            <h3>Choose Slot</h3>
+            <div class="slot-options">
+                <label><input type="radio" name="time-slot"> 9:00 am - 10:00 am</label>
+                <label><input type="radio" name="time-slot"> 10:00 am - 11:00 am</label>
+                <label><input type="radio" name="time-slot"> 1:00 am - 2:00 am</label>
+                <label><input type="radio" name="time-slot"> 2:00 am - 3:00 am</label>
+            </div>
+
+            <button type="submit" class="proceed-button">Proceed to pay</button>
+        </form>
+    </div>
+</body>
+</html>
+
